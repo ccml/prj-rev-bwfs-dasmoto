@@ -10,25 +10,31 @@ h1 {
     background-image: url("../images/pattern.jpeg");
 }
 
-div h2 {
+h2 {
     font-size: 32px;
     font-weight: bold;
     color: white;
 }
 
-div.brushes h2 {
+h2.brushes {
     background-color: mediumspringgreen;
 }
 
-div.frames h2 {
+h2.frames {
     background-color: lightcoral;
 }
 
-div.paint h2 {
+h2.paint {
     background-color: skyblue;
 }
 
-p span {
+span.price {
     font-weight: bold;
     color: blue;
+}
+
+nav a {
+	font-size: 24px;
+	font-weight: bold;
+	color: dimgray;
 }
